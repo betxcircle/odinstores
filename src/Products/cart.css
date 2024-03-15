@@ -1,0 +1,126 @@
+/* .cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+.cart-empty h3  {
+  justify-content: center;
+  margin-left: 700px;
+  align-content: center;
+  color: black;
+  padding: 100px;
+}
+
+.cart-empty button  {
+  justify-content: center;
+  margin-left: 770px;
+  margin-bottom:  100px;
+  align-content: center;
+  background-color: white;
+  color: black;
+  padding: 5px;
+} */
+/* new */
+.cart-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item-info {
+  display: flex;
+  flex-direction: row;
+}
+.item-details {
+  margin-left: 10%;
+}
+.cartItem {
+  width: 700px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin: 30px;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+}
+
+.cartItem .description {
+  width: 100%;
+  font-size: 30px;
+}
+
+.countHandler input {
+  width: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.checkout button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+.cart-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.cart-item:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+  background-color: transparent;
+  border: none;
+  color: #999;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #555;
+}
+
+.buttonplus {
+  width: 100px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.buttonminus {
+  width: 100px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.buttonremove {
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: none;
+  background-color: #000;
+  color: #fff;
+}
+.count {
+  margin-left: 40px;
+}
+
