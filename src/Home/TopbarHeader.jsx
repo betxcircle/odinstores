@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Container=styled.div`
    height:30px;
-   background-color:teal;
+   background-color:orange;
    color:white;
    display:flex;
    justify-content:center;
@@ -17,7 +17,7 @@ const Container=styled.div`
  function Announcement() {
   return (
     <Container>
-      Super Deal! Free Shipping on Order Over 2000.
+      Super Deal! Buy 2 Items – Get 10% Off.
     </Container>
   );
 }

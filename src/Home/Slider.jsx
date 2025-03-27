@@ -23,15 +23,15 @@ const Wrapper = styled.div`
 `;
 
 const Slide = styled.div`
-   width: 100vw;
-   height: 100vh;
+   width: 50vw;
+   height: 50vh;
    display: flex;
    align-items: center;
    background-color: #${props => props.bg};
 `;
 
 const ImgContainer = styled.div`
-   height: 100%;
+   height: 50%;
    flex: 1;
 `;
 
