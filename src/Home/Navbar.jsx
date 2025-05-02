@@ -142,9 +142,10 @@ export default function Navbar() {
         {/* Right: Icons */}
         <div className="flex items-center gap-4">
       {/* Wishlist */}
-      <Link to="/wishlist">
-        <FiHeart className="text-3xl cursor-pointer" />
+    <Link to="/how-to-order" className="text-base text-blue-600 hover:underline">
+  How to Order 
       </Link>
+
 
       {/* Cart */}
       
